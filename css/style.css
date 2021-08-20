@@ -151,10 +151,14 @@ h4 {
 
 /* Responsive */
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
+    :root {
+        font-size: 14px;
+    }
+
     .card-container {
         width: 320px;
-        height: 80vh;
+        height: 85vh;
     }
 
     p {
