@@ -30,7 +30,7 @@
 
 .card-container {
     width: 375px;
-    height: 78vh;
+    height: 550px;
     position: relative;
     top: 10%;
     border-radius: 20px;
@@ -158,13 +158,20 @@ h4 {
         font-size: 14px;
     }
 
+    .wrapper {
+        background: url(../images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        background-color: var(--vPaleBlue);
+    }
+
     .card-container {
         width: 320px;
-        height: 85vh;
+        height: 500px;
     }
 
     p {
-        margin-bottom: .5em;
+        margin-bottom: 1.5em;
     }
 
     .amount p {
